@@ -123,12 +123,14 @@ footer:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:jaimy.g@hotmail.com"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      style: "color: black;"
+      url: "https://www.linkedin.com/in/jaimy-gebbeken-86929114b/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Jeeemieee/"
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/in/jaimy-gebbeken-86929114b/"
+    
 
 
 # Reading Files
