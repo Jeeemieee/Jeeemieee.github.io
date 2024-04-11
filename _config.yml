@@ -108,14 +108,17 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
   location         : "Enschede, the Netherlands"
-  email            : "jaimy.g@hotmail.com"
+  email            : 
   links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/Jeeemieee/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:jaimy.g@hotmail.com"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/jaimy-gebbeken-86929114b/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Jeeemieee/"
 
 # Site Footer
 footer:
@@ -125,7 +128,6 @@ footer:
       url: "mailto:jaimy.g@hotmail.com"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
-      style: "color: black;"
       url: "https://www.linkedin.com/in/jaimy-gebbeken-86929114b/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
