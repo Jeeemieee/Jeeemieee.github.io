@@ -114,7 +114,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Jeeemieee/"
     - label: "LinkedIn"
-      icon: "fa fa-linkedin-square"
+      icon: "fa fa-linkedin"
       url: "https://www.linkedin.com/in/jaimy-gebbeken-86929114b/"
 
 # Site Footer
@@ -127,7 +127,7 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Jeeemieee/"
     - label: "LinkedIn"
-      icon: "fa fa-linkedin-square"
+      icon: "fa fa-linkedin"
       url: "https://www.linkedin.com/in/jaimy-gebbeken-86929114b/"
 
 
