@@ -20,7 +20,7 @@ title                    : "Site Title"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Jaimy Gebbeken"
-description              : "An amazing website."
+description              : "My personal portfolio, showcasing my interest and experience in CFD engineering."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Jaimy Gebbeken"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "I am somebody who's driven by topics such as transport phenomena, mathematics, and numerical methods within the context of computational fluid dynamics. I explore these interests every day during my work as a PhD student and after work in my many personal projects."
   location         : "Enschede, the Netherlands"
   email            : 
   links:
