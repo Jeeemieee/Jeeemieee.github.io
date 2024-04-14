@@ -1,6 +1,6 @@
 ---
 title: Posts
-permalink: /posts
+permalink: /Posts/
 ---
 <ul>
  {% for post in site.posts %}
