@@ -24,7 +24,7 @@ description              : "My personal portfolio, showcasing my interest and ex
 url                      : "https://jeeemieee.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "Jeeemieee/Jeeemieee.github.io"
-teaser                   : "/assets/images/500x300.png"
+teaser                   : "/assets/images/tikz/twoPhaseArbitraryFluidElement.png"
 logo                     : "/assets/images/88x88.png" 
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
