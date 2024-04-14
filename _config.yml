@@ -25,7 +25,7 @@ url                      : "https://jeeemieee.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "Jeeemieee/Jeeemieee.github.io"
 teaser                   : "/assets/images/tikz/twoPhaseArbitraryFluidElement.png"
-logo                     : "/assets/images/88x88.png" 
+logo                     : "/assets/images/default/logo.png" 
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true
 words_per_minute         : 200
@@ -275,3 +275,10 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
