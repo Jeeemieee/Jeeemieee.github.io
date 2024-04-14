@@ -138,6 +138,9 @@ footer:
 # Reading Files
 include:
   - Gemfile
+  - Custom\ Solvers
+  - OpenFOAM
+  - Ansys
 exclude: 
   - .htaccess
   - _pages
