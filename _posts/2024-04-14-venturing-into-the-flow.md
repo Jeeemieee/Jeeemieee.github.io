@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title "Venturing into the Flow: The Shear Brilliance of Computational Fluid Dynamics"
 date: 2024-04-14
 author: Jaimy Gebbeken
