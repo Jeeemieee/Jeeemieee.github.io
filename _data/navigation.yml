@@ -3,12 +3,5 @@ main:
   - title: "POSTS"
     url: https://jeeemieee.github.io/posts/
   - title: "CUSTOM SOLVERS"
-  	url: https://jeeemieee.github.io/customSolvers/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+    url: https://jeeemieee.github.io/customSolvers/
+
