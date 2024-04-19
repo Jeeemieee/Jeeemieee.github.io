@@ -1,6 +1,7 @@
 ---
 title: "Heat Equation: Overview"
 permalink: /customSolvers/heatEquation/
+toc: true
 ---
 
 # Chapter 1: the beer that was born
