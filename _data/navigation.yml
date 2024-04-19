@@ -1,7 +1,9 @@
 # main links
 main:
   - title: "POSTS"
-    url: https://jeeemieee.github.io/Posts/
+    url: https://jeeemieee.github.io/posts/
+  - title: "CUSTOM SOLVERS"
+  	url: https://jeeemieee.gitbub.oi/customSolvers/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
