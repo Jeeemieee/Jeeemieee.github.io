@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Jaimy Gebbeken"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/default/Headshot.jpg"
   bio              : "I am somebody who's driven by topics such as transport phenomena, mathematics, and numerical methods all within the context of computational fluid dynamics. I explore these interests every day during my work as a PhD student and after work in my many personal projects."
   location         : "Enschede, the Netherlands"
   email            : 
