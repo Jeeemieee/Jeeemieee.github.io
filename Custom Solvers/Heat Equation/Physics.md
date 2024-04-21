@@ -1,3 +1,0 @@
----
-title: "Heat Equation: Physics"
----
