@@ -2,9 +2,15 @@
 layout: default
 ---
 
-{% assign header_images = site.static_files | where: "path", "/header_images" %}
-{% if header_images.size > 0 %}
-  {% assign random_image = header_images | sample %}
+{% assign random_image = nil %}
+{% if page.header.overlay_image_directory %}
+  {% assign header_images = site.static_files | where: "path", page.header.overlay_image_directory | prepend: site.baseurl %}
+  {% if header_images.size > 0 %}
+    {% assign random_image = header_images | sample %}
+  {% endif %}
+{% endif %}
+
+{% if random_image %}
   {% include page__hero.html image_url=random_image.path %}
 {% elsif page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
