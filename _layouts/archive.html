@@ -18,8 +18,23 @@ layout: default
   {% endif %}
 {% endif %}
 
-{% assign page.header.overlay_image_directory = "test"  %}
+
+
+
+{% capture page_header_json %}
+  {% assign temp_page_header = page.header | default: {} %}
+  {% assign temp_page_header.overlay_image = "test" %}
+  {{ temp_page_header | jsonify }}
+{% endcapture %}
+
+{% assign page_header = page_header_json | parse_json %}
+{% assign page.header.overlay_image = page_header.overlay_image %}
+
+{{ page.header.overlay_image }}
 <p>G: {{ page.header }}</p>
+
+
+
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
