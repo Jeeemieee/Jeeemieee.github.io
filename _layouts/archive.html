@@ -2,32 +2,7 @@
 layout: default
 ---
 
-<p>A: test</p>
-{% assign random_image = nil %}
-{% if page.header.overlay_image_directory %}
-  <p>B: {{ page.header.overlay_image_directory }}</p>
-  {% assign directory = page.header.overlay_image_directory | prepend: site.baseurl %}
-  <p>C: {{ directory }}</p>
-  {% assign header_images = site.static_files | where_exp: "file", "file.path contains directory" %}
-  <p>D: {{ header_images | map: "path" }}</p>
-  {% if header_images.size > 0 %}
-    {% assign random_image = header_images | sample %}
-    <p>E: {{ random_image }}</p>
-    <p>F: {{ random_image.path }}</p>
-    {% assign page.header.overlay_image = random_image.path | prepend: site.baseurl %}
-  {% endif %}
-{% endif %}
-
-
-
-
-{% capture overlay_img_path %}{{ page.header.overlay_image | relative_url }}{% endcapture %}
-<p>G: {{ overlay_img_path }}</p>
-
-
-
-
-{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image or page.header.overlay_image_directory %}
   {% include page__hero.html %}
 {% elsif page.header.video.id and page.header.video.provider %}
   {% include page__hero_video.html %}

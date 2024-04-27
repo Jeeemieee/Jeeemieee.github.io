@@ -1,4 +1,28 @@
-{% capture overlay_img_path %}{{ page.header.overlay_image | relative_url }}{% endcapture %}
+{% assign overlay_img_path = nil %}
+
+{% if page.header.overlay_image %}
+  {% assign overlay_img_path = page.header.overlay_image | relative_url %}
+{% elsif page.header.overlay_image_directory %}
+  {% assign directory = page.header.overlay_image_directory | prepend: site.baseurl %}
+  {% assign header_images = site.static_files | where_exp: "file", "file.path contains directory" %}
+  {% if header_images.size > 0 %}
+    {% assign random_image = header_images | sample %}
+    {% assign overlay_img_path = random_image.path | prepend: site.baseurl %}
+  {% endif %}
+{% endif %}
+
+{% if overlay_img_path %}
+  <p>G: {{ overlay_img_path }}</p>
+{% else %}
+  <p>G: No overlay image found</p>
+{% endif %}
+
+
+
+
+
+
+
 
 {% if page.header.overlay_filter contains "gradient" %}
   {% capture overlay_filter %}{{ page.header.overlay_filter }}{% endcapture %}
