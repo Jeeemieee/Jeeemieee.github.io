@@ -8,7 +8,7 @@ show_date: false
 share: false
 related: false
 header:
-   overlay_image_directory: /assets/images/headers
+   overlay_image: /assets/images/headers/doubleMachReflection.png
 ---
 
 ## Some title
