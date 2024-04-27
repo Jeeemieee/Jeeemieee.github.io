@@ -11,19 +11,6 @@
   {% endif %}
 {% endif %}
 
-{% if overlay_img_path %}
-  <p>G: {{ overlay_img_path }}</p>
-{% else %}
-  <p>G: No overlay image found</p>
-{% endif %}
-
-
-
-
-
-
-
-
 {% if page.header.overlay_filter contains "gradient" %}
   {% capture overlay_filter %}{{ page.header.overlay_filter }}{% endcapture %}
 {% elsif page.header.overlay_filter contains "rgba" %}
