@@ -8,9 +8,10 @@
   {% if header_images.size > 0 %}
     {% assign random_image = header_images | sample %}
     {% assign overlay_img_path = "/assets/images/headers/twoPhaseArbitraryFluidElement.png" | relative_url %}
-    <p> test: {{ overlay_img_path }} </p>
   {% endif %}
 {% endif %}
+
+<p> test: {{ overlay_img_path }} </p>
 
 {% if page.header.overlay_filter contains "gradient" %}
   {% capture overlay_filter %}{{ page.header.overlay_filter }}{% endcapture %}
