@@ -4,13 +4,17 @@ layout: default
 
 {% assign random_image = nil %}
 {% if page.header.overlay_image_directory %}
-  {% assign header_images = site.static_files | where: "path", page.header.overlay_image_directory %}
+  {% assign directory = page.header.overlay_image_directory | prepend: site.baseurl %}
+  {% assign header_images = site.static_files | where: "path", directory %}
   {% if header_images.size > 0 %}
-    {% assign page.header.overlay_image = header_images | sample %}
+    {% assign random_image = header_images | sample %}
   {% endif %}
 {% endif %}
 
-{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+{% if random_image %}
+  {% assign page.header.overlay_image = random_image %}
+  {% include page__hero.html %}
+{% elsif page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
 {% elsif page.header.video.id and page.header.video.provider %}
   {% include page__hero_video.html %}
