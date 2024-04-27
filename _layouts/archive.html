@@ -16,6 +16,9 @@ layout: default
   {% endif %}
 {% endif %}
 
+<p>site.static_files:</p>
+{{ site.static_files | inspect }}
+
 {% if random_image %}
   {% assign page.header.overlay_image = random_image %}
   {% include page__hero.html %}
