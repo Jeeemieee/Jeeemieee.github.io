@@ -4,10 +4,14 @@ layout: default
 
 {% assign random_image = nil %}
 {% if page.header.overlay_image_directory %}
+  <p>A: {{ page.header.overlay_image_directory }}</p>
   {% assign directory = page.header.overlay_image_directory | prepend: site.baseurl %}
+  <p>B: {{ directory }}</p>
   {% assign header_images = site.static_files | where: "path", directory %}
+  <p>C: {{ header_images }}</p>
   {% if header_images.size > 0 %}
     {% assign random_image = header_images | sample %}
+    <p>D: {{ random_image }}</p>
   {% endif %}
 {% endif %}
 
