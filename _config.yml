@@ -144,7 +144,10 @@ include:
   - Ansys
 exclude:
   - assets
-  - _includes
+  - LICENSE
+  - package.json
+  - package-lock.json
+  - Rakefile
 #  - .htaccess
 #  - "*.sublime-project"
 #  - "*.sublime-workspace"
