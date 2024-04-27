@@ -138,7 +138,7 @@ footer:
 # Reading Files
 include:
   - Gemfile
-  - Info
+  - _pages
   - Custom\ Solvers
   - OpenFOAM
   - Ansys
