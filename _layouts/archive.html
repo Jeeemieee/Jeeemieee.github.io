@@ -9,15 +9,13 @@ layout: default
   {% assign directory = page.header.overlay_image_directory | prepend: site.baseurl %}
   <p>C: {{ directory }}</p>
   {% assign header_images = site.static_files | where_exp: "file", "file.path contains directory" %}
-  <p>D: {{ header_images }}</p>
+  <p>D: {{ header_images | map: "path" }}</p>
   {% if header_images.size > 0 %}
     {% assign random_image = header_images | sample %}
-    <p>E: {{ random_image }}</p>
+    <p>E: {{ random_image.path }}</p>
   {% endif %}
 {% endif %}
 
-<p>site.static_files:</p>
-{{ site.static_files | inspect }}
 
 {% if random_image %}
   {% assign page.header.overlay_image = random_image %}
