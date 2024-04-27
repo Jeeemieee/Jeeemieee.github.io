@@ -11,12 +11,16 @@ layout: default
 {% endif %}
 
 {% if random_image %}
+  {% comment %} Output the image URL for debugging {% endcomment %}
+  <p>Image URL: {{ random_image.path }}</p>
+
   {% include page__hero.html image_url=random_image.path %}
 {% elsif page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
 {% elsif page.header.video.id and page.header.video.provider %}
   {% include page__hero_video.html %}
 {% endif %}
+
 
 {% if page.url != "/" and site.breadcrumbs %}
   {% unless paginator %}
