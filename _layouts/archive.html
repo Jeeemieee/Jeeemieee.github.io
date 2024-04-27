@@ -12,7 +12,8 @@ layout: default
   <p>D: {{ header_images | map: "path" }}</p>
   {% if header_images.size > 0 %}
     {% assign random_image = header_images | sample %}
-    <p>E: {{ random_image.path }}</p>
+    <p>E: {{ random_image }}</p>
+    <p>F: {{ random_image.path }}</p>
     {% assign page.header.overlay_image = random_image.path %}
   {% endif %}
 {% endif %}
