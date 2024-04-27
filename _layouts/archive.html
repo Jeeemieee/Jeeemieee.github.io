@@ -14,7 +14,7 @@ layout: default
     {% assign random_image = header_images | sample %}
     <p>E: {{ random_image }}</p>
     <p>F: {{ random_image.path }}</p>
-    {% assign page.header.overlay_image = random_image.path %}
+    {% assign page.header.overlay_image = random_image.path | prepend: site.baseurl %}
   {% endif %}
 {% endif %}
 
