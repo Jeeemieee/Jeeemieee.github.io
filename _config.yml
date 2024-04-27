@@ -144,7 +144,7 @@ include:
   - Ansys
 exclude:
   - assets
-  - _data
+  - _includes
 #  - .htaccess
 #  - "*.sublime-project"
 #  - "*.sublime-workspace"
