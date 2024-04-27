@@ -4,7 +4,7 @@ layout: default
 
 {% assign random_image = nil %}
 {% if page.header.overlay_image_directory %}
-  {% assign header_images = site.static_files | where: "path", page.header.overlay_image_directory | prepend: site.baseurl %}
+  {% assign header_images = site.static_files | where: "path", page.header.overlay_image_directory %}
   {% if header_images.size > 0 %}
     {% assign page.header.overlay_image = header_images | sample %}
   {% endif %}
@@ -15,7 +15,6 @@ layout: default
 {% elsif page.header.video.id and page.header.video.provider %}
   {% include page__hero_video.html %}
 {% endif %}
-
 
 {% if page.url != "/" and site.breadcrumbs %}
   {% unless paginator %}
