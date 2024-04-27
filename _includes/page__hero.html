@@ -7,7 +7,7 @@
   {% assign header_images = site.static_files | where_exp: "file", "file.path contains directory" %}
   {% if header_images.size > 0 %}
     {% assign random_image = header_images | sample %}
-    {% assign overlay_img_path = random_image | relative_url %}
+    {% assign overlay_img_path = random_image.path %}
   {% endif %}
 {% endif %}
 
