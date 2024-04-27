@@ -16,9 +16,8 @@ layout: default
   {% endif %}
 {% endif %}
 
-
 {% if random_image %}
-  {% assign page.header.overlay_image = random_image %}
+  {% assign page.header.overlay_image = random_image.path %}
   {% include page__hero.html %}
 {% elsif page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
