@@ -18,8 +18,11 @@ layout: default
   {% endif %}
 {% endif %}
 
-{% assign page.header.test = "test"  %}
-
+{% capture page_header %}
+  {% assign page_header = page.header | default: {} %}
+  {% assign page_header.test = "test" %}
+  {{ page_header | jsonify }}
+{% endcapture %}
 <p>G: {{ page.header }}</p>
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
