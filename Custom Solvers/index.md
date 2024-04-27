@@ -9,7 +9,6 @@ share: false
 related: false
 header:
    overlay_image_directory: /assets/images/headers
-   page.header.overlay_image: /assets/images/doubleMachReflection/doubleMachReflection.png
 ---
 
 ## Some title
