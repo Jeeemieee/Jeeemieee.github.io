@@ -143,7 +143,7 @@ include:
   - OpenFOAM
   - Ansys
 exclude:
-  - _layouts/home.html
+  - assets
   - .htaccess
   - "*.sublime-project"
   - "*.sublime-workspace"
