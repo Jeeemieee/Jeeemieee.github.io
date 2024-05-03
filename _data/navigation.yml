@@ -6,4 +6,7 @@ main:
     url: https://jeeemieee.github.io/customSolvers/
   - title: "OpenFOAM"
     url: https://jeeemieee.github.io/openFoam/
-
+  - title: "ANSYS"
+    url: https://jeeemieee.github.io/ansys/
+  - title: "MISC"
+    url: https://jeeemieee.github.io/misc/
