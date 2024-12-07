@@ -138,10 +138,6 @@ footer:
 # Reading Files
 include:
   - Gemfile
-  - _pages
-  - Custom\ Solvers
-  - OpenFOAM
-  - Ansys
 exclude:
   - .htaccess
   - "*.sublime-project"
