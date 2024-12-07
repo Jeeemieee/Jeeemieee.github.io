@@ -138,6 +138,7 @@ footer:
 # Reading Files
 include:
   - Gemfile
+  - _pages
 exclude:
   - .htaccess
   - "*.sublime-project"
