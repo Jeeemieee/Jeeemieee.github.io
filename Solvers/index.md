@@ -1,6 +1,6 @@
 ---
-title: Custom Solvers
-permalink: /customSolvers/
+title: Solvers
+permalink: /solvers/
 layout: archive
 author_profile: false
 read_time: false
@@ -16,6 +16,6 @@ header:
 Some description
 
 
-## List of Custom Solvers
+## List of Custom Made Solvers
 
-- [Heat Equation](/customSolvers/heatEquation/)
+- [Heat Equation](/solvers/heatEquation/)

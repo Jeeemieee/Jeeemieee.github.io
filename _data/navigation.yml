@@ -2,8 +2,8 @@
 main:
   - title: "POSTS"
     url: https://jeeemieee.github.io/posts/
-  - title: "CUSTOM SOLVERS"
-    url: https://jeeemieee.github.io/customSolvers/
+  - title: "SOLVERS"
+    url: https://jeeemieee.github.io/solvers/
   - title: "OPENFOAM"
     url: https://jeeemieee.github.io/openFoam/
   - title: "ANSYS"
