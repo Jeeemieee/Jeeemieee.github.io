@@ -11,12 +11,12 @@ header:
    overlay_image: /assets/images/headers/doubleMachReflection.png
 rootFinding:
   - image_path: /assets/images/headers/doubleMachReflection.png
-    alt: ""
+    alt: "Placeholder image"
     title: "Root Finding Algorithms"
-    excerpt: ""
-    url: ""
-    btn_label: ""
-    btn_class: ""
+    excerpt: "This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`"
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 --- 
 
-{% include rootFinding %}
+{% include feature_row id="rootFinding" type="left" %}
