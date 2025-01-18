@@ -10,7 +10,6 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-theme                    : "minimal-mistakes-jekyll"
 minimal_mistakes_skin    : "dark" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -44,7 +43,7 @@ lunr:
   search_within_pages    : true
 
 # SEO Related
-google_site_verification : <meta name="google-site-verification" content="BE8fGdfLwdvRPKYATZadHd_HPusVkHEle3FJ7mxoYmA" />
+google_site_verification : # <meta name="google-site-verification" content="BE8fGdfLwdvRPKYATZadHd_HPusVkHEle3FJ7mxoYmA" />
 bing_site_verification   :
 naver_site_verification  :
 yandex_site_verification :
