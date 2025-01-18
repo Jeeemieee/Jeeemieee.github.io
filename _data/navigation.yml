@@ -1,18 +1,12 @@
 # main links
 main:
-  - title: "POSTS"
-    url: https://jeeemieee.github.io/posts/
-  - title: "SOLVERS"
-    url: https://jeeemieee.github.io/solvers/
-  - title: "OPENFOAM"
-    url: https://jeeemieee.github.io/openFoam/
-  - title: "ANSYS"
-    url: https://jeeemieee.github.io/ansys/
-  - title: "MATH"
-    url: https://jeeemieee.github.io/math/
-  - title: "3D PRINTING"
-    url: https://jeeemieee.github.io/3d-printing/
-  - title: "TIKZ"
-    url: https://jeeemieee.github.io/tikz/
-  - title: "MISC"
-    url: https://jeeemieee.github.io/misc/
+  - title: "Quick-Start Guide"
+    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
